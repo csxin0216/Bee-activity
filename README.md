@@ -1,4 +1,4 @@
-# About it
+# Bee Activity
 
 要求用 scala 和 kafka 实现以下 4 个蜜蜂活动，过程中需要用到 docker 和 Postgres 数据库。<br>
 假设中央接收器发布着陆Kafka主题“events”上的事件数据。每一个发表事件具有蜜蜂id，着陆时间戳(舍入到最接近的秒)，以及着陆点的坐标。<br>
